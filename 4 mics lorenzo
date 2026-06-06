@@ -1,4 +1,27 @@
-EN PROCESO
+python3 -c "
+content = open('/cygdrive/c/Users/carlo/hackathon/examples/PSOC_Edge_Machine_Learning_DEEPCRAFT_Deploy_Audio_1/proj_cm55/audio.c').read()
+print('backup ok:', len(content), 'chars')
+"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TERMINADO
 TERM=xterm vi "/cygdrive/c/Users/carlo/hackathon/examples/PSOC_Edge_Machine_Learning_DEEPCRAFT_Deploy_Audio_1/bsps/TARGET_APP_KIT_PSE84_AI/config/GeneratedSource/cycfg_peripherals.c"
 
 const cy_stc_pdm_pcm_channel_config_t channel_0_config =
