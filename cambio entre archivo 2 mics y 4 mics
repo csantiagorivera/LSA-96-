@@ -6,6 +6,8 @@ curl -o "/cygdrive/c/Users/carlo/hackathon/examples/PSOC_Edge_Machine_Learning_D
 revisar copia 4 mics
 ls -la "/cygdrive/c/Users/carlo/hackathon/examples/PSOC_Edge_Machine_Learning_DEEPCRAFT_Deploy_Audio_1/proj_cm55/audio_4mic.c"
 
+verificar 2 mics:
+grep "PDM_CHANNEL_LEFT\|PDM_CHANNEL_RIGHT" "/cygdrive/c/Users/carlo/hackathon/examples/PSOC_Edge_Machine_Learning_DEEPCRAFT_Deploy_Audio_1/proj_cm55/audio.c"
 
 volver a 4 mics:
 cp ".../audio_4mic.c" ".../audio.c"
