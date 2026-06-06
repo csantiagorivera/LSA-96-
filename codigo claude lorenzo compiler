@@ -9,3 +9,7 @@ grep -rn "PDM_CHANNEL_0\|PDM_CHANNEL_1\|CHANNEL_0_IRQ\|CHANNEL_1_IRQ" \
 
 4to intento
 cat "/cygdrive/c/Users/carlo/hackathon/examples/PSOC_Edge_Machine_Learning_DEEPCRAFT_Deploy_Audio_1/proj_cm55/audio.h"
+
+5to intento
+grep -rn "channel_2_config\|channel_3_config" \
+"/cygdrive/c/Users/carlo/hackathon/examples/PSOC_Edge_Machine_Learning_DEEPCRAFT_Deploy_Audio_1/" 2>/dev/null
