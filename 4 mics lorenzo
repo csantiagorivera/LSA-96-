@@ -1,7 +1,36 @@
 EN PROCESO
 TERM=xterm vi "/cygdrive/c/Users/carlo/hackathon/examples/PSOC_Edge_Machine_Learning_DEEPCRAFT_Deploy_Audio_1/bsps/TARGET_APP_KIT_PSE84_AI/config/GeneratedSource/cycfg_peripherals.c"
 
-
+const cy_stc_pdm_pcm_channel_config_t channel_0_config =
+{
+    .sampledelay = 1,
+    .wordSize = CY_PDM_PCM_WSIZE_16_BIT,
+    .signExtension = true,
+    .rxFifoTriggerLevel = 31,
+    .fir0_enable = false,
+    .cic_decim_code = CY_PDM_PCM_CHAN_CIC_DECIM_32,
+    .fir0_decim_code = CY_PDM_PCM_CHAN_FIR0_DECIM_1,
+    .fir0_scale = 0,
+    .fir1_decim_code = CY_PDM_PCM_CHAN_FIR1_DECIM_3,
+    .fir1_scale = 10,
+    .dc_block_disable = false,
+    .dc_block_code = CY_PDM_PCM_CHAN_DCBLOCK_CODE_16,
+};
+const cy_stc_pdm_pcm_channel_config_t channel_1_config =
+{
+    .sampledelay = 5,
+    .wordSize = CY_PDM_PCM_WSIZE_16_BIT,
+    .signExtension = true,
+    .rxFifoTriggerLevel = 31,
+    .fir0_enable = false,
+    .cic_decim_code = CY_PDM_PCM_CHAN_CIC_DECIM_32,
+    .fir0_decim_code = CY_PDM_PCM_CHAN_FIR0_DECIM_1,
+    .fir0_scale = 0,
+    .fir1_decim_code = CY_PDM_PCM_CHAN_FIR1_DECIM_3,
+    .fir1_scale = 10,
+    .dc_block_disable = false,
+    .dc_block_code = CY_PDM_PCM_CHAN_DCBLOCK_CODE_16,
+};
 
 TERMINADO
 vi "/cygdrive/c/Users/carlo/hackathon/examples/PSOC_Edge_Machine_Learning_DEEPCRAFT_Deploy_Audio_1/bsps/TARGET_APP_KIT_PSE84_AI/config/GeneratedSource/cycfg_peripherals.h"
