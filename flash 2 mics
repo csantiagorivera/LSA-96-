@@ -1,0 +1,3 @@
+cp "/cygdrive/c/Users/carlo/Downloads/model.c" "/cygdrive/c/Users/carlo/hackathon/examples/PSOC_Edge_Machine_Learning_DEEPCRAFT_Deploy_Audio_1/proj_cm55/model/model.c"
+
+cp "/cygdrive/c/Users/carlo/Downloads/model.h" "/cygdrive/c/Users/carlo/hackathon/examples/PSOC_Edge_Machine_Learning_DEEPCRAFT_Deploy_Audio_1/proj_cm55/model/model.h"
