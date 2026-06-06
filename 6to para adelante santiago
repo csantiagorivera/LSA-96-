@@ -1,3 +1,57 @@
+$ cd "/cygdrive/c/Users/carlo/hackathon/examples/PSOC_Edge_Machine_Learning_DEEPCRAFT_Deploy_Audio_1/proj_cm55"
+make all 2>&1 | tail -30
+ |   extended_boot_sram_reserved   | 0x00000000 | (100%)         4.096 |         4.096 |
+ |   m33s_shared                   | 0x00001000 | (  0%)             0 |         4.096 |
+ |   m33s_code                     | 0x00002000 | (  1%)         1.504 |       217.088 |
+ |     .app_code_ram               | 0x00000000 |                1.504 |               |
+ |   m33s_data                     | 0x00037000 | ( 98%)       133.113 |       135.168 |
+ |     .ram_vectors                | 0x00000000 |                  852 |               |
+ |     .data                       | 0x00000354 |                  288 |               |
+ |     .bss                        | 0x00000474 |                  120 |               |
+ |     .noinit                     | 0x000004ec |                  149 |               |
+ |     .heap                       | 0x00000588 |              131.704 |               |
+ |   m33_code                      | 0x00058000 | (  0%)           816 |       413.696 |
+ |     .app_code_ram               | 0x00000000 |                  816 |               |
+ |   m33_data                      | 0x000bd000 | ( 98%)       258.041 |       262.144 |
+ |     .ram_vectors                | 0x00000000 |                  852 |               |
+ |     .data                       | 0x00000354 |                  104 |               |
+ |     .bss                        | 0x000003bc |                5.536 |               |
+ |     .noinit                     | 0x0000195c |                  149 |               |
+ |     .heap                       | 0x000019f8 |              251.400 |               |
+ |   m33s_allocatable_shared       | 0x000fd000 | (  9%)           380 |         4.096 |
+ |     .cy_sharedmem               | 0x00000000 |                  380 |               |
+ |   m33_allocatable_shared        | 0x000fe000 | ( 23%)           928 |         4.096 |
+ |     .cy_sharedmem               | 0x00000000 |                  928 |               |
+ |   m55_allocatable_shared        | 0x000ff000 | ( 15%)           608 |         4.096 |
+ |     .cy_sharedmem               | 0x00000000 |                  608 |               |
+ |   <unallocated>                 |            |                      |             0 |
+  -------------------------------------------------------------------------------------
+make[2]: Verzeichnis „/cygdrive/c/Users/carlo/hackathon/examples/PSOC_Edge_Machine_Learning_DEEPCRAFT_Deploy_Audio_1/proj_cm33_s“ wird verlassen
+make[1]: Verzeichnis „/cygdrive/c/Users/carlo/hackathon/examples/PSOC_Edge_Machine_Learning_DEEPCRAFT_Deploy_Audio_1“ wird verlassen
+
+Note: Running the "build_proj" target in this sub-project will only build this sub-project, and not the entire application.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TERMINADO
 $ sed -n '385,430p' "/cygdrive/c/Users/carlo/hackathon/examples/PSOC_Edge_Machine_Learning_DEEPCRAFT_Deploy_Audio_1/bsps/TARGET_APP_KIT_PSE84_AI/config/GeneratedSource/cycfg_peripherals.c"
     .clkDiv = 7,
     .clksel = CY_PDM_PCM_SEL_SRSS_CLOCK,
