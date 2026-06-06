@@ -1,3 +1,71 @@
+$ grep -rn "channel_2_config\|channel_3_config" \
+"/cygdrive/c/Users/carlo/hackathon/examples/PSOC_Edge_Machine_Learning_DEEPCRAFT_Deploy_Audio_1/" 2>/dev/null
+/cygdrive/c/Users/carlo/hackathon/examples/PSOC_Edge_Machine_Learning_DEEPCRAFT_Deploy_Audio_1/bsps/TARGET_APP_KIT_PSE84_AI/config/GeneratedSource/cycfg_peripherals.c:392:const cy_stc_pdm_pcm_channel_config_t channel_2_config =
+/cygdrive/c/Users/carlo/hackathon/examples/PSOC_Edge_Machine_Learning_DEEPCRAFT_Deploy_Audio_1/bsps/TARGET_APP_KIT_PSE84_AI/config/GeneratedSource/cycfg_peripherals.c:407:const cy_stc_pdm_pcm_channel_config_t channel_3_config =
+/cygdrive/c/Users/carlo/hackathon/examples/PSOC_Edge_Machine_Learning_DEEPCRAFT_Deploy_Audio_1/bsps/TARGET_APP_KIT_PSE84_AI/config/GeneratedSource/cycfg_peripherals.h:190:extern const cy_stc_pdm_pcm_channel_config_t channel_2_config;
+/cygdrive/c/Users/carlo/hackathon/examples/PSOC_Edge_Machine_Learning_DEEPCRAFT_Deploy_Audio_1/bsps/TARGET_APP_KIT_PSE84_AI/config/GeneratedSource/cycfg_peripherals.h:191:extern const cy_stc_pdm_pcm_channel_config_t channel_3_config;
+/cygdrive/c/Users/carlo/hackathon/examples/PSOC_Edge_Machine_Learning_DEEPCRAFT_Deploy_Audio_1/proj_cm33_ns/audio.c:148:    Cy_PDM_PCM_Channel_Init(CYBSP_PDM_HW, &channel_3_config, (uint8_t)PDM_CHANNEL);
+/cygdrive/c/Users/carlo/hackathon/examples/PSOC_Edge_Machine_Learning_DEEPCRAFT_Deploy_Audio_1/proj_cm33_ns/build/APP_KIT_PSE84_AI/Debug/proj_cm33_ns.map:7972: .rodata.channel_3_config
+/cygdrive/c/Users/carlo/hackathon/examples/PSOC_Edge_Machine_Learning_DEEPCRAFT_Deploy_Audio_1/proj_cm33_ns/build/APP_KIT_PSE84_AI/Debug/proj_cm33_ns.map:7974: .rodata.channel_2_config
+/cygdrive/c/Users/carlo/hackathon/examples/PSOC_Edge_Machine_Learning_DEEPCRAFT_Deploy_Audio_1/proj_cm33_s/build/APP_KIT_PSE84_AI/Debug/proj_cm33_s.map:7097: .rodata.channel_3_config
+/cygdrive/c/Users/carlo/hackathon/examples/PSOC_Edge_Machine_Learning_DEEPCRAFT_Deploy_Audio_1/proj_cm33_s/build/APP_KIT_PSE84_AI/Debug/proj_cm33_s.map:7099: .rodata.channel_2_config
+/cygdrive/c/Users/carlo/hackathon/examples/PSOC_Edge_Machine_Learning_DEEPCRAFT_Deploy_Audio_1/proj_cm55/audio.c:169:    Cy_PDM_PCM_Channel_Init(CYBSP_PDM_HW, &channel_3_config, (uint8_t)PDM_CHANNEL_RIGHT);
+/cygdrive/c/Users/carlo/hackathon/examples/PSOC_Edge_Machine_Learning_DEEPCRAFT_Deploy_Audio_1/proj_cm55/audio.c:184:    Cy_PDM_PCM_Channel_Init(CYBSP_PDM_HW, &channel_2_config, (uint8_t)PDM_CHANNEL_LEFT);
+/cygdrive/c/Users/carlo/hackathon/examples/PSOC_Edge_Machine_Learning_DEEPCRAFT_Deploy_Audio_1/proj_cm55/build/APP_KIT_PSE84_AI/Debug/proj_cm55.map:23949: .rodata.channel_3_config
+/cygdrive/c/Users/carlo/hackathon/examples/PSOC_Edge_Machine_Learning_DEEPCRAFT_Deploy_Audio_1/proj_cm55/build/APP_KIT_PSE84_AI/Debug/proj_cm55.map:23951:                0x605815b8                channel_3_config
+/cygdrive/c/Users/carlo/hackathon/examples/PSOC_Edge_Machine_Learning_DEEPCRAFT_Deploy_Audio_1/proj_cm55/build/APP_KIT_PSE84_AI/Debug/proj_cm55.map:23952: .rodata.channel_2_config
+/cygdrive/c/Users/carlo/hackathon/examples/PSOC_Edge_Machine_Learning_DEEPCRAFT_Deploy_Audio_1/proj_cm55/build/APP_KIT_PSE84_AI/Debug/proj_cm55.map:23954:                0x605815c4                channel_2_config
+
+carlo@LaMalcriada ~
+$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 $ cat "/cygdrive/c/Users/carlo/hackathon/examples/PSOC_Edge_Machine_Learning_DEEPCRAFT_Deploy_Audio_1/proj_cm55/audio.c"
 /******************************************************************************
 * File Name:   audio.c
