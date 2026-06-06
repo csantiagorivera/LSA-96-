@@ -1,10 +1,4 @@
-python3 -c "
-content = open('/cygdrive/c/Users/carlo/hackathon/examples/PSOC_Edge_Machine_Learning_DEEPCRAFT_Deploy_Audio_1/proj_cm55/audio.c').read()
-print('backup ok:', len(content), 'chars')
-"
-
-
-
+powershell.exe -Command "code 'C:\Users\carlo\hackathon\examples\PSOC_Edge_Machine_Learning_DEEPCRAFT_Deploy_Audio_1\proj_cm55\audio.c'"
 
 
 
