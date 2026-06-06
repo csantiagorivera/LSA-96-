@@ -1,0 +1,8 @@
+nano "/cygdrive/c/Users/carlo/hackathon/examples/PSOC_Edge_Machine_Learning_DEEPCRAFT_Deploy_Audio_1/bsps/TARGET_APP_KIT_PSE84_AI/config/GeneratedSource/cycfg_peripherals.h"
+
+#define CYBSP_PDM_CHANNEL_0_IRQ pdm_0_interrupts_0_IRQn
+#define CYBSP_PDM_CHANNEL_1_IRQ pdm_0_interrupts_1_IRQn
+
+
+extern const cy_stc_pdm_pcm_channel_config_t channel_0_config;
+extern const cy_stc_pdm_pcm_channel_config_t channel_1_config;
