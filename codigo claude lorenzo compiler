@@ -1,0 +1,5 @@
+cat "/cygdrive/c/Users/carlo/hackathon/examples/PSOC_Edge_Machine_Learning_DEEPCRAFT_Deploy_Audio_1/proj_cm55/audio.c"
+
+cat "/cygdrive/c/Users/carlo/hackathon/examples/PSOC_Edge_Machine_Learning_DEEPCRAFT_Deploy_Audio_1/proj_cm33_ns/audio.c"
+
+cat "/cygdrive/c/Users/carlo/hackathon/examples/PSOC_Edge_Machine_Learning_DEEPCRAFT_Deploy_Audio_1/bsps/TARGET_APP_KIT_PSE84_AI/config/GeneratedSource/cycfg_pins.h"
