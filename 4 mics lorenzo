@@ -1,3 +1,5 @@
+TERM=xterm vi "/cygdrive/c/Users/carlo/hackathon/examples/PSOC_Edge_Machine_Learning_DEEPCRAFT_Deploy_Audio_1/proj_cm55/audio.c"
+
 #include "cybsp.h"
 #include "cy_pdl.h"
 #include "audio.h"
