@@ -1,3 +1,9 @@
+EN PROCESO
+TERM=xterm vi "/cygdrive/c/Users/carlo/hackathon/examples/PSOC_Edge_Machine_Learning_DEEPCRAFT_Deploy_Audio_1/bsps/TARGET_APP_KIT_PSE84_AI/config/GeneratedSource/cycfg_peripherals.c"
+
+
+
+TERMINADO
 vi "/cygdrive/c/Users/carlo/hackathon/examples/PSOC_Edge_Machine_Learning_DEEPCRAFT_Deploy_Audio_1/bsps/TARGET_APP_KIT_PSE84_AI/config/GeneratedSource/cycfg_peripherals.h"
 
 #define CYBSP_PDM_CHANNEL_0_IRQ pdm_0_interrupts_0_IRQn
