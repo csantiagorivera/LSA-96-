@@ -3,3 +3,6 @@ grep -n "IMAI_DATA_IN_COUNT\|channel_0_config\|channel_1_config\|CHANNEL_0_IRQ\|
 
 grep -rn "IMAI_DATA_IN_COUNT" \
 "/cygdrive/c/Users/carlo/hackathon/examples/PSOC_Edge_Machine_Learning_DEEPCRAFT_Deploy_Audio_1/proj_cm55/" 2>/dev/null
+
+grep -rn "PDM_CHANNEL_0\|PDM_CHANNEL_1\|CHANNEL_0_IRQ\|CHANNEL_1_IRQ" \
+"/cygdrive/c/Users/carlo/hackathon/examples/PSOC_Edge_Machine_Learning_DEEPCRAFT_Deploy_Audio_1/bsps/" 2>/dev/null | head -20
