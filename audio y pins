@@ -1987,3 +1987,10 @@ void init_cycfg_pins(void);
 #endif /* CYCFG_PINS_H */
 
 carlo@LaMalcriada ~
+
+
+
+$ grep -rn "IMAI_DATA_IN_COUNT" \
+"/cygdrive/c/Users/carlo/hackathon/examples/PSOC_Edge_Machine_Learning_DEEPCRAFT_Deploy_Audio_1/proj_cm55/" 2>/dev/null
+/cygdrive/c/Users/carlo/hackathon/examples/PSOC_Edge_Machine_Learning_DEEPCRAFT_Deploy_Audio_1/proj_cm55/audio.c:342:        float input_features[IMAI_DATA_IN_COUNT];
+/cygdrive/c/Users/carlo/hackathon/examples/PSOC_Edge_Machine_Learning_DEEPCRAFT_Deploy_Audio_1/proj_cm55/model/model.h:108:#define IMAI_DATA_IN_COUNT (2)
